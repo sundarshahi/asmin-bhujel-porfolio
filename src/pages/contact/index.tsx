@@ -112,7 +112,7 @@ const Form = styled.form`
   }
 
   input {
-    height: 30px;
+    height: 40px;
     width: 93%;
   }
 
@@ -122,8 +122,10 @@ const Form = styled.form`
   }
 
   button {
+    height: 48px;
     width: 100%;
     background: #e94e1b;
+    cursor: pointer;
     color: #fff;
     margin-bottom: 5rem;
   }
