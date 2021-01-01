@@ -26,7 +26,7 @@ const Contact = () => {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
-        'form-name': 'Contact Form',
+        'form-name': 'contact-form',
         ...data,
       }),
     })
@@ -48,11 +48,11 @@ const Contact = () => {
           onSubmit={handleSubmit(onSubmit)}
           action="/contact/thanks/"
           method="post"
-          name="Contact Form"
+          name="contact-form"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
           <Row>
             <label htmlFor="name">
               Your Name
