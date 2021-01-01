@@ -43,6 +43,12 @@ const itemIds = [
     icon: <FcBusinessContact />,
     url: '/contact',
   },
+  {
+    id: 3,
+    title: 'Post',
+    icon: <FcBusinessContact />,
+    url: '/posts',
+  },
 ];
 
 const Menu = styled(motion.ul).attrs(() => ({

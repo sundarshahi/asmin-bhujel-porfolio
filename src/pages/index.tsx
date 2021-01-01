@@ -165,9 +165,9 @@ const IndexPage = () => {
             />
           </Headline>
           <Text>
-            I am working as a security analyst with years of experience, I analyze the
-            offenses triggered in SIEM (QRadar), captured payloads of
-            Checkpoints Firewall, NIPS, Endpoint, Proxy & other more than 10
+            I am working as a security analyst with years of experience, I
+            analyze the offenses triggered in SIEM (QRadar), captured payloads
+            of Checkpoints Firewall, NIPS, Endpoint, Proxy & other more than 10
             CJ's .{' '}
             <strong>
               <Link to="/contact/">Get in touch</Link>
