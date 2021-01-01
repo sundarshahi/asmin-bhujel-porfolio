@@ -1,12 +1,12 @@
 import React from 'react';
 import Container from 'Atoms/Container';
 import SEO from 'Molecules/Seo';
-import Posts from 'Molecules/Posts';
+import Articles from 'Molecules/Articles';
 
 const PostPage = () => (
   <Container>
     <SEO title="Post" />
-    <Posts />
+    <Articles />
   </Container>
 );
 

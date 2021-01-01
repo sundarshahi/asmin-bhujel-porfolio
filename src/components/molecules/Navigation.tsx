@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { MenuItem } from 'Atoms/MenuItem';
 
-import { FcHome, FcAbout, FcBusinessContact } from 'react-icons/fc';
+import { FcHome, FcBusinessman, FcReading, FcContacts } from 'react-icons/fc';
 
 const variants = {
   open: {
@@ -34,20 +34,20 @@ const itemIds = [
   {
     id: 1,
     title: 'About',
-    icon: <FcAbout />,
+    icon: <FcBusinessman />,
     url: '/about',
   },
   {
     id: 2,
     title: 'Contact',
-    icon: <FcBusinessContact />,
+    icon: <FcContacts />,
     url: '/contact',
   },
   {
     id: 3,
     title: 'Post',
-    icon: <FcBusinessContact />,
-    url: '/posts',
+    icon: <FcReading />,
+    url: '/articles',
   },
 ];
 
