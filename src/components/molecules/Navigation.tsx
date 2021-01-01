@@ -37,11 +37,6 @@ const itemIds = [
     icon: <FcAbout />,
     url: '/about',
   },
-  // {
-  //   id: 2,
-  //   title: 'Portfolio',
-  //   url: '/portfolio',
-  // },
   {
     id: 2,
     title: 'Contact',

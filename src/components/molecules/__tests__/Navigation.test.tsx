@@ -62,18 +62,6 @@ test('renders correctly', () => {
       </li>
       <li
         class="c1"
-        data-testid="portfolio"
-        style="opacity: 0; pointer-events: none; transform: translateY(50px) translateZ(0);"
-      >
-        <a
-          class=""
-          href="/portfolio"
-        >
-          Portfolio
-        </a>
-      </li>
-      <li
-        class="c1"
         data-testid="contact"
         style="opacity: 0; pointer-events: none; transform: translateY(50px) translateZ(0);"
       >

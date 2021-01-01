@@ -8,7 +8,7 @@ import theme from 'styled-theming';
 interface IProps {
   item: {
     title: string;
-    icon: React.ReactNode;
+    icon?: React.ReactNode;
     url: string;
     id?: number | string;
   };
