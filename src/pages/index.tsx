@@ -165,7 +165,7 @@ const IndexPage = () => {
             />
           </Headline>
           <Text>
-            As a security analyst with years of experience I analyze the
+            I am working as a security analyst with years of experience, I analyze the
             offenses triggered in SIEM (QRadar), captured payloads of
             Checkpoints Firewall, NIPS, Endpoint, Proxy & other more than 10
             CJ's .{' '}
