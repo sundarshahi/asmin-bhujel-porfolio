@@ -7,7 +7,7 @@ describe('About page', () => {
 
   it('loads about page', () => {
     cy.getTestElement('headline').then((el) => {
-      expect(el).to.have.text(`Hey, I'm Jacob Herper`);
+      expect(el).to.have.text(`Hey, I'm Asmin Bhujel`);
     });
   });
 
@@ -15,18 +15,4 @@ describe('About page', () => {
     cy.getTestElement('filters');
   });
 
-  it('filters skills', () => {
-    cy.get('.--frameworks')
-      .should('exist')
-      .getTestElement('filterTechnologies')
-      .click()
-      .get('.--frameworks')
-      .should('not.exist');
-
-    // Remove filter again
-    cy.getTestElement('filterTechnologies')
-      .click()
-      .get('.--frameworks')
-      .should('exist');
-  });
 });
